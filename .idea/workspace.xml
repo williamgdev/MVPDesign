@@ -44,19 +44,30 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="802">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,12 +82,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPresenter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/presenter/MainPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="725">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1867,11 +1883,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/BaseView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/BaseView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/presenter/MainMvpPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/BasePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/presenter/MainPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -1922,6 +1939,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVPDesign" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2000,6 +2039,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVPDesign" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -2015,6 +2064,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2348,6 +2398,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2386,29 +2437,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2449,9 +2481,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/presenter/MainPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="725">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mac/fireflies/wgt/mvpdesign/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

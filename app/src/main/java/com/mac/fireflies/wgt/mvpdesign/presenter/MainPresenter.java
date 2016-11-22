@@ -12,17 +12,22 @@ public class MainPresenter implements MainMvpPresenter{
     @Override
     public void loadData() {
         mainView.showProgress();
-        String fakeData = "FireFlies";
-        mainView.showText(fakeData);
+        try {
+            String fakeData = "FireFlies";
+            mainView.showText(fakeData);
+        } catch (Exception e) {
+            mainView.showError(e.getMessage());
+        }
+        mainView.hideProgress();
     }
 
     @Override
     public void attachView(MainView mainView) {
-
+        this.mainView = mainView;
     }
 
     @Override
     public void detachView() {
-
+        mainView = null;
     }
 }
