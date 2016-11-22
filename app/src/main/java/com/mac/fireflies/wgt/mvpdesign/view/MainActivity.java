@@ -1,7 +1,9 @@
-package com.mac.fireflies.wgt.mvpdesign;
+package com.mac.fireflies.wgt.mvpdesign.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.mac.fireflies.wgt.mvpdesign.R;
 
 public class MainActivity extends AppCompatActivity {
 
