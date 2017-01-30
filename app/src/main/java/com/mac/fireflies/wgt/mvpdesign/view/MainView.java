@@ -1,7 +1,5 @@
 package com.mac.fireflies.wgt.mvpdesign.view;
 
-import com.mac.fireflies.wgt.mvpdesign.BaseView;
-
 /**
  * Created by User on 11/22/2016.
  */
