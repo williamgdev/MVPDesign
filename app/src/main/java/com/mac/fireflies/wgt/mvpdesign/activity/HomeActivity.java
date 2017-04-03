@@ -1,4 +1,4 @@
-package com.mac.fireflies.wgt.mvpdesign.view.activity;
+package com.mac.fireflies.wgt.mvpdesign.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mac.fireflies.wgt.mvpdesign.R;
-import com.mac.fireflies.wgt.mvpdesign.presenter.MainPresenterImplt;
+import com.mac.fireflies.wgt.mvpdesign.presenter.HomePresenterImplt;
 import com.mac.fireflies.wgt.mvpdesign.view.MainView;
 
-public class MainActivity extends AppCompatActivity implements MainView {
-    MainPresenterImplt mainPresenter;
+public class HomeActivity extends AppCompatActivity implements MainView {
+    HomePresenterImplt mainPresenter;
     private ProgressBar progressBar;
     private TextView textView;
     private Button button;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mainPresenter = new MainPresenterImplt();
+        mainPresenter = new HomePresenterImplt();
         mainPresenter.attachView(this);
 
         progressBar = (ProgressBar) findViewById(R.id.main_progress);

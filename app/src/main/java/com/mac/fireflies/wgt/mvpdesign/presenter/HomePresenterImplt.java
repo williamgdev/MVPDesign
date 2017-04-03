@@ -7,7 +7,7 @@ import com.mac.fireflies.wgt.mvpdesign.view.MainView;
  * Created by User on 11/22/2016.
  */
 
-public class MainPresenterImplt implements MainPresenter {
+public class HomePresenterImplt implements MainPresenter {
     MainView mainView;
 
     @Override

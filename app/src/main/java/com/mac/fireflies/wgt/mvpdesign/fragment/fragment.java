@@ -1,4 +1,4 @@
-package com.mac.fireflies.wgt.mvpdesign.view.fragment;
+package com.mac.fireflies.wgt.mvpdesign.fragment;
 
 import android.app.Fragment;
 
