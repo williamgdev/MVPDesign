@@ -1,6 +1,7 @@
 package com.mac.fireflies.wgt.mvpdesign.presenter;
 
 import com.mac.fireflies.wgt.mvpdesign.interactor.HomeInteractor;
+import com.mac.fireflies.wgt.mvpdesign.interactor.HomeInteractor2;
 import com.mac.fireflies.wgt.mvpdesign.model.Text;
 import com.mac.fireflies.wgt.mvpdesign.view.MainView;
 
@@ -10,9 +11,9 @@ import com.mac.fireflies.wgt.mvpdesign.view.MainView;
 
 public class HomePresenterImplt implements MainPresenter, HomeInteractor.OnFinishedListener {
     MainView mainView;
-    private HomeInteractor interactor;
+    private HomeInteractor2 interactor;
 
-    public HomePresenterImplt(MainView mainView, HomeInteractor interactor) {
+    public HomePresenterImplt(MainView mainView, HomeInteractor2 interactor) {
         this.mainView = mainView;
         this.interactor = interactor;
     }

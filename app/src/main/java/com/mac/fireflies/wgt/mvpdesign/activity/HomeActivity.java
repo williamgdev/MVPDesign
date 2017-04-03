@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.mac.fireflies.wgt.mvpdesign.R;
 import com.mac.fireflies.wgt.mvpdesign.interactor.HomeInteractor;
+import com.mac.fireflies.wgt.mvpdesign.interactor.HomeInteractor2;
 import com.mac.fireflies.wgt.mvpdesign.presenter.HomePresenterImplt;
 import com.mac.fireflies.wgt.mvpdesign.view.MainView;
 
@@ -24,7 +25,7 @@ public class HomeActivity extends AppCompatActivity implements MainView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mainPresenter = new HomePresenterImplt(this, new HomeInteractor());
+        mainPresenter = new HomePresenterImplt(this, new HomeInteractor2());
         mainPresenter.attachView(this);
 
         progressBar = (ProgressBar) findViewById(R.id.main_progress);
