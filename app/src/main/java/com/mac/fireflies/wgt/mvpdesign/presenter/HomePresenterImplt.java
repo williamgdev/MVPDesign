@@ -11,9 +11,9 @@ import com.mac.fireflies.wgt.mvpdesign.view.MainView;
 
 public class HomePresenterImplt implements MainPresenter, HomeInteractor.OnFinishedListener {
     MainView mainView;
-    private HomeInteractor2 interactor;
+    private HomeInteractor interactor;
 
-    public HomePresenterImplt(MainView mainView, HomeInteractor2 interactor) {
+    public HomePresenterImplt(MainView mainView, HomeInteractor interactor) {
         this.mainView = mainView;
         this.interactor = interactor;
     }

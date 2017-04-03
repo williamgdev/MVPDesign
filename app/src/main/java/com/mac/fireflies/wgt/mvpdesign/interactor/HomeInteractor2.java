@@ -23,7 +23,7 @@ public class HomeInteractor2 implements BaseInteractor {
     private String createTextList() {
         StringBuffer textList = new StringBuffer();
         for (int i = 0; i < 10; i++) {
-            textList.append(new Text("Text " + i));
+            textList.append(new Text("Text " + i).getText());
         }
         return textList.toString();
     }

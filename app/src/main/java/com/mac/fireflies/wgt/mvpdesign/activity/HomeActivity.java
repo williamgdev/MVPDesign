@@ -25,7 +25,7 @@ public class HomeActivity extends AppCompatActivity implements MainView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mainPresenter = new HomePresenterImplt(this, new HomeInteractor2());
+        mainPresenter = new HomePresenterImplt(this, new HomeInteractor());
         mainPresenter.attachView(this);
 
         progressBar = (ProgressBar) findViewById(R.id.main_progress);

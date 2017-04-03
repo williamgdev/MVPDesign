@@ -15,4 +15,8 @@ public class Text {
         this.text = text;
     }
 
+    @Override
+    public String toString() {
+        return getText();
+    }
 }
